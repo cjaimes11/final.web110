@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiuv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0>
+    <title> Jaimes Auto Work</title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="navbar">
+            <h1 class="logo">JAIMES</h1>
+            <ul class="nav-link">
+                <li class="active"><a href="#"></a>Auto Maintenance</li>
+                <li><a href="#"></a>24/7 Towing</li>
+                <li><a href="#"></a>Emergency Road Side Assistance</li>
+                <li><a href="#"></a>About</li>
+            </ul>
+            <img src="/images/menu-btn.png" alt="" class="menu-button">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Jaimes Auto Work</h2>
+            <div class="line"></div>
+            <h1>You Name It We Do It</h1>
+            <a href="#" class="ctn">Auto Maintenance</a>
+        </div>
+    </header>
+
+    <!-- == specializations == -->
+    
+    <section class="Specializations">
+        <div class="title">
+            <h1>Specializations</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img.1.jpg" alt="">
+                <h4>Auto Work</h4>
+                <p> We have many specializations but of many Auto Work is one of our strongest specializations. We are certified to work on any vehicle, no matter the year make or model. Not only do our certifications show that we are good at what we do but so does our experience, with over 15 years of experience</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img.2.jpg" alt="">
+                <h4>Auto Towing</h4>
+                <p> Wether you are stuck on the side of the road, or it is 3am we will be there to help you escape any situation that you are in. We offer 24/7 towing in the Triangle area</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+        <section class="footer">
+            <p> 123 Durham Ave, NC 27704, USA | Phone: 919-123-1234 | Email: Contact@gmail.com</p>
+            <p>Copyright 2023 Jaimes Auto Work</p>
+        </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
